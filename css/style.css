@@ -1,0 +1,93 @@
+body{
+	background-image: url("../images/bg.png");
+	font-family: PaintBall;
+	text-shadow: 3px 3px #000000;
+}
+#container{
+	width: 1024px;
+	height: 800px;
+	margin: 0 auto;
+}
+#cont_sections{
+	display: none;
+}
+#Inklings{
+	width: 1024px;
+	height: 800px;
+	margin: 0 auto;
+	display: none;
+}
+#cont_menu{
+	width: 1024px;
+	height: 50px;
+	float: left;
+	color: #FFFFFF;
+	font-size: 28px;
+}
+#cont_menu li{
+	list-style: none;
+	display: inline;
+	margin-left: 30px;
+}
+#cont_menu ul{
+	margin: 15%;
+	margin-top: 10px;
+}
+.menu_despl{
+	width: 1024px;
+	height: 100px;
+	float: left;
+	font-size: 30px;
+}
+.despl_text{
+	display: none;
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+	float: left;
+	background-image: url("../images/text_background.png");
+	color: #FFFFFF;
+	font-size: 18px;
+	padding: 20px;
+}
+.link_hide{
+	display: none;
+	float: right;
+}
+.cont_img{
+	float: left;
+	width: 400px;
+	height: 400px;
+	display: none;
+	margin-left: 100px;
+}
+@font-face {
+    font-family: PaintBall;
+    src: url(../fonts/paintball.otf);
+}
+a{
+	color: #FFFFFF;
+	font-style: none;
+	text-decoration: none;
+}
+a:hover{
+	color:#FF8000;
+}
+audio{
+	visibility: hidden;
+}
+#intro{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 100;
+	position: absolute;
+	width: 1024px;
+	height: 500px;
+	padding-top: 20px;
+	padding-left: 20px;
+	background-image: url("../images/SI_WiiU_Splatoon.jpg");
+	background-size: 100% auto;
+	font-size: 48px;
+	color: #FFFFFF;	
+}
